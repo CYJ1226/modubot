@@ -1,0 +1,58 @@
+[project]
+name = "modubot"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "cyj1226",email = "cndudwo1226@gmail.com"}
+]
+readme = "README.md"
+
+requires-python = ">=3.12,<3.13"
+
+dependencies = [
+    "langchain==0.3.27",
+    "langchain-core==0.3.76",
+    "langchain-groq>=0.2.0",
+    "langchain-community",
+    "langchain-openai==0.3.33",
+    "langchain-anthropic",
+    "langchain-text-splitters",
+    "langchain-chroma",
+    "langchain-ollama",
+    "langchain-experimental",
+    "langchain-huggingface",
+
+    "anthropic",
+    "openai",
+
+    "nltk==3.8.1",
+    "pypdfium2",
+    "pypdf",
+    "rapidocr-onnxruntime",
+    "sentence-transformers",
+    "unstructured[pdf]",
+
+    "python-pptx",
+    "python-magic-bin==0.4.14",
+
+    "faiss-cpu",
+    "grandalf",
+    "streamlit (>=1.53.1,<2.0.0)",
+    "python-dotenv (>=1.1.1,<2.0.0)",
+    "psutil (>=7.1.0,<8.0.0)",
+    "docx2txt (>=0.9,<0.10)",
+    "bs4 (>=0.0.2,<0.0.3)",
+    "huggingface-hub[hf-xet] (>=0.35.3,<0.36.0)",
+    "blinker (>=1.9.0,<2.0.0)",
+    
+    "langchain-cohere (>=0.3.0,<0.4.0)",
+    "streamlit-lottie (>=0.0.5,<0.0.6)",
+    "pandas (==2.2.3)",
+    "requests (>=2.32.5,<3.0.0)",
+    "altair (==4.2.2)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
